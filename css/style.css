@@ -1,0 +1,186 @@
+/* styles across all pages*/
+
+.nav{
+    background-color: #f0f0f5;
+    width: 100%;
+}
+
+.col-12{
+    padding-right: 0px;
+}
+
+.row{
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+/* styles on the home page*/
+
+#jumbo-home{
+    text-align: center;
+    margin: 0;
+    background-image: url(../images/laptopedit.png);
+    background-position: center;
+    background-repeat: none;
+    height: 640px;
+}
+
+.jumbotron .display-3{
+    color: white;
+    font-size: 110px;
+    font-family: 'Playfair Display', serif;
+}
+
+.jumbotron .lead{
+    color: white;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* navbar at the bottom of all pages with the social media icons in it*/
+
+.row-foot{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f0f0f5;
+}
+
+#social-icons{
+    font-size: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+/* styles on the about me page*/
+
+#jumbo-about{
+    text-align: left;
+    height: 570px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/laptop2edit.png);
+    background-position: center;
+    background-repeat: none;
+}
+
+#jumbo-h1{
+    color: white;
+    font-size: 110px;
+    font-family: 'Playfair Display', serif;
+}
+
+#p-about{
+    font-size: 30px;
+    line-height: 1.6;
+    
+}
+
+/*styles for the boxes near the bottom of the page on the about page*/
+
+#box1{
+    background-color: #cce0ff;
+    color: red;
+}
+
+#box2{
+    background-color: #e6f0ff;
+}
+
+#html5-icon{
+    color: red;
+    font-size: 72px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+#css-icon{
+    color: blue;
+    font-size: 72px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+#java-icon{
+    color: yellow;
+    font-size: 72px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+#python-icon{
+    color: black;
+    font-size: 72px;
+    text-align: left;
+    padding-left: 6px;
+}
+
+/* styles for the three contact boxes on the contact me page */
+
+#jumbo-contact{
+    height: 645px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/laptop2edit.png);
+    background-position: center;
+    background-repeat: none;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color:yellow;
+}
+
+#contact-1{
+    background-color: #d1d1e0;
+    height: 215px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    transition-property: background-color, border-radius;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+
+#contact-2{
+    background-color: #d1d1e0;
+    height: 215px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    transition-property: background-color, border-radius;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+
+#contact-3{
+    background-color: #d1d1e0;
+    height: 215px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    transition-property: background-color, border-radius;
+    transition-timing-function: ease-in;
+    transition-duration: 2s;
+}
+
+#p-contact{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#contact-1:hover{
+    background-color: #b3b3ff;
+    border-radius: 50%;
+}
+
+#contact-2:hover{
+    background-color: #b3ffb3;
+    border-radius: 50%;
+}
+
+#contact-3:hover{
+    background-color: #ffb3b3;
+    border-radius: 50%;
+}
